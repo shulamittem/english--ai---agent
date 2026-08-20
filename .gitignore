@@ -11,11 +11,16 @@ env/
 # Environment variables / secrets
 .env
 .env.*
+!.env.example
 
 # Packaging
 build/
 dist/
 *.egg-info/
+
+# ADK local runtime state
+.adk/
+*.db
 
 # Testing / coverage
 .pytest_cache/
