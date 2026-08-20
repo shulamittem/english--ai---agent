@@ -1,7 +1,7 @@
 from google.adk.agents.llm_agent import Agent
 
 root_agent = Agent(
-    model="gemini-flash-latest",
+    model="gemini-3.6-flash",
     name="root_agent",
     description="Walking skeleton for the English-practice agent.",
     instruction=(
